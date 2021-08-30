@@ -308,8 +308,8 @@
                     <h3>Download Our App</h3>
                     <p>Download App for Android & ios mobile phone.</p>
                     <div class="app-logo">
-                        <img src="./play-store.png" alt="">
-                        <img src="./app-store.png" alt="">
+                        <img src="./play-store.png" alt="" onclick="g()">
+                        <img src="./app-store.png" alt="" onclick="g()">
                     </div>
                 </div>
                 <div class="footer-col-2">
@@ -351,9 +351,10 @@
                 MenuItem.style.maxHeight = "0px";
             }
         }
-    </script>
-    <script>
         var scroll = new SmoothScroll('a[href*="#"]');
+        function g(){
+            alert("Sorry , your device is not compatible");
+        }
     </script>
 </body>
 
